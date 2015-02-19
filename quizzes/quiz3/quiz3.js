@@ -11,7 +11,7 @@ var noVowels = function(string){
 			string[i].toLowerCase() != 'y'	)
 			strngFin += string[i];
 	}
-var noVowelsArray = strngFin.toString(',');
+noVowelsArray = strngFin.toString(',');
 return noVowelsArray;
 }
 
