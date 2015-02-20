@@ -1,8 +1,10 @@
 var postTime = function(){
 setInterval(function(){ 
 	var dateTime = new Date()
-	var time = dateTime.getHours()+":"+ dateTime.getMinutes()+":"+dateTime.getSeconds(); 
-		console.log(time);
+	var h = dateTime.getHours()
+	var m = dateTime.getMinutes()
+	var s = dateTime.getSeconds(); 
+		console.log(h +":"+m+":"+s);
 }, 1000);
 }
 postTime();
